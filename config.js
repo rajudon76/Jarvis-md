@@ -26,7 +26,7 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID || 'Jarvis_bf1c_d63d_ae2f_4c3b_c1eb_4d37_90c2_988e',
   LANG: process.env.LANG || 'EN',
   ELEVENLABS: process.env.ELEVENLABS,
-  HANDLERS: process.env.HANDLERS || process.env.HANDLER || process.env.PREFIX || '',
+  HANDLERS: process.env.HANDLERS || process.env.HANDLER || process.env.PREFIX || '.',
   ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
   READ_MSG: toBool(process.env.READ_MSG || "false"),
   BRANCH: "main",
